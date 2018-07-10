@@ -5,6 +5,15 @@
 </head>
 
 <body>
+  <h4>Student Courses:</h4>
+  <ul>
+  <% @student.courses.each do |course| %>
+    <li>
+      <%= course.title %>
+    </li>
+  <% end %>
+  </ul>
+  <h4>Student Addresses:</h4>
   <ul>
   <% @student.addresses.each do |address| %>
     <li>

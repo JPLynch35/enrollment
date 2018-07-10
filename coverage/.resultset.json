@@ -437,6 +437,26 @@
         null,
         null
       ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_a_lsit_of_courses_for_a_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_all_students_addresses_spec.rb": [
         1,
         null,
@@ -522,7 +542,7 @@
         1,
         null
       ],
-      "/Users/jp/turing/2module/code_challenge/enrollment/spec/models/student_spec.rb": [
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/models/course_spec.rb": [
         1,
         null,
         1,
@@ -534,7 +554,45 @@
         null,
         null
       ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/app/models/course.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/models/student_course_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/app/models/student_course.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/models/student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/app/models/student.rb": [
+        1,
+        1,
         1,
         1,
         1,
@@ -548,7 +606,7 @@
         null,
         null,
         1,
-        7,
+        8,
         null,
         null,
         1,
@@ -620,6 +678,6 @@
         null
       ]
     },
-    "timestamp": 1531256460
+    "timestamp": 1531257227
   }
 }
