@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_a_list_of_all_students_spec.rb": [
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_create_student_spec.rb": [
         1,
         null,
         1,
@@ -12,7 +12,6 @@
         null,
         1,
         null,
-        1,
         1,
         null,
         null,
@@ -276,6 +275,23 @@
         1,
         null
       ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_a_list_of_all_students_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_an_individual_student_spec.rb": [
         1,
         null,
@@ -319,6 +335,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/application_controller.rb": [
@@ -327,6 +347,6 @@
         null
       ]
     },
-    "timestamp": 1531251555
+    "timestamp": 1531251918
   }
 }
