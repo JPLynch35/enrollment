@@ -16,11 +16,11 @@ describe 'a visitor' do
 
       visit student_addresses_path(student_1)
 
-      fill_in :student_address_description, with: 'Lake House'
-      fill_in :student_address_street, with: 'Pine Street'
-      fill_in :student_address_city, with: 'Lake City'
-      fill_in :student_address_state, with: 'Colorado'
-      fill_in :student_address_zipcode, with: 07016
+      fill_in :address_description, with: 'Lake House'
+      fill_in :address_street, with: 'Pine Street'
+      fill_in :address_city, with: 'Lake City'
+      fill_in :address_state, with: 'Colorado'
+      fill_in :address_zipcode, with: 07016
       click_on 'Create Address'
 
       expect(current_path).to eq(student_path(student_1))
