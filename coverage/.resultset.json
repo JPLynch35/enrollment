@@ -646,41 +646,6 @@
         null,
         null
       ],
-      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/courses_controller.rb": [
-        1,
-        1,
-        2,
-        null,
-        null
-      ],
-      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/addresses_controller.rb": [
-        1,
-        1,
-        4,
-        4,
-        null,
-        null,
-        1,
-        3,
-        3,
-        3,
-        3,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        1,
-        3,
-        null,
-        null
-      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/students_controller.rb": [
         1,
         1,
@@ -730,8 +695,43 @@
         2,
         null,
         null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/addresses_controller.rb": [
+        1,
+        1,
+        4,
+        4,
+        null,
+        null,
+        1,
+        3,
+        3,
+        3,
+        3,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        3,
+        null,
+        null
+      ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/courses_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null
       ]
     },
-    "timestamp": 1531258498
+    "timestamp": 1531258700
   }
 }

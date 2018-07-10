@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T15:34:58-06:00">2018-07-10T15:34:58-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T15:38:20-06:00">2018-07-10T15:38:20-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -730,7 +730,7 @@
         <li class="covered" data-hits="9" data-linenumber="7">
           <span class="hits">9</span>
           
-          <code class="ruby">    @student = Student.find(params[:id])</code>
+          <code class="ruby">    @student = Student.includes(:courses, :addresses).find(params[:id])</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
