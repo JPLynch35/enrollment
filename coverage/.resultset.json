@@ -284,6 +284,34 @@
         1,
         null
       ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_edit_student_name_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_see_a_list_of_all_students_spec.rb": [
         1,
         null,
@@ -370,6 +398,6 @@
         null
       ]
     },
-    "timestamp": 1531252315
+    "timestamp": 1531252490
   }
 }
