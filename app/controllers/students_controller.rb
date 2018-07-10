@@ -14,7 +14,7 @@ class StudentsController < ApplicationController
   def create
     student = Student.create(student_params)
     if student.save
-      redirect_to students_path
+      redirect_to student_path(student)
     else
       render :new
     end

@@ -338,11 +338,11 @@
       "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/students_controller.rb": [
         1,
         1,
+        1,
+        null,
+        null,
+        1,
         2,
-        null,
-        null,
-        1,
-        1,
         null,
         null,
         1,
@@ -370,6 +370,6 @@
         null
       ]
     },
-    "timestamp": 1531252205
+    "timestamp": 1531252315
   }
 }

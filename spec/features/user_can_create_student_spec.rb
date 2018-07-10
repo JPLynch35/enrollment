@@ -16,7 +16,7 @@ describe 'a visitor' do
       fill_in :student_name, with: 'Harold'
       click_on 'Create Student'
 
-      expect(current_path).to eq(students_path)
+      expect(current_path).to eq(student_path(Student.find_by(name: 'Harold')))
       expect(page).to have_content('Harold')
     end
   end
