@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     resources :addresses
   end
   
+  recouses :courses, only: [:show]
 
 end
