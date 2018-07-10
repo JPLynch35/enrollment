@@ -284,6 +284,26 @@
         1,
         null
       ],
+      "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_delete_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
       "/Users/jp/turing/2module/code_challenge/enrollment/spec/features/user_can_edit_student_name_spec.rb": [
         1,
         null,
@@ -366,7 +386,7 @@
       "/Users/jp/turing/2module/code_challenge/enrollment/app/controllers/students_controller.rb": [
         1,
         1,
-        1,
+        2,
         null,
         null,
         1,
@@ -412,6 +432,6 @@
         null
       ]
     },
-    "timestamp": 1531252842
+    "timestamp": 1531253165
   }
 }

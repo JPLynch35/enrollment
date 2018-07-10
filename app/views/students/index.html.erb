@@ -7,7 +7,7 @@
 <body>
   <ul>
   <% @students.each do |student| %>
-    <li><%= student.name %></li>
+    <li class="student_<%= student.id %>"><%= student.name %></li>
   <% end %>
   </ul>
 </body>
