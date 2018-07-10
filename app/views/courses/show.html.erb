@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <h2>Course: <%= @course.title %></h2>
+</head>
+
+<body>
+  <h4>Student Enrolled:</h4>
+  <ul>
+  <% @course.students.each do |student| %>
+    <li>
+      <%= student.name %>
+    </li>
+  <% end %>
+  </ul>
+</body>
+</html>
