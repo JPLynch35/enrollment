@@ -56,5 +56,4 @@ describe 'a visitor' do
       expect(current_path).to eq(student_path(student_2))
     end
   end
-  end
 end
