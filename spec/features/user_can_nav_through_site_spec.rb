@@ -10,7 +10,7 @@ describe 'a visitor' do
 
       click_on 'Create a Student'
 
-      expect(page).to have_content('Create a Student!')
+      expect(page).to have_content('Create a New Student!')
     end
     it 'can use a nav bar to student index from /students/new' do
       student_1 = Student.create(name: 'Bobby')
