@@ -5,6 +5,16 @@
 </head>
 
 <body>
-
+  <ul>
+  <% @student.addresses.each do |address| %>
+    <li>
+      <%= address.description %>
+      <%= address.street %>
+      <%= address.city %>
+      <%= address.state %>
+      <%= address.zipcode %>
+    </li>
+  <% end %>
+  </ul>
 </body>
 </html>

@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20180710203211) do
     t.string "street"
     t.string "city"
     t.string "state"
-    t.integer "zipcode"
+    t.string "zipcode"
     t.bigint "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
