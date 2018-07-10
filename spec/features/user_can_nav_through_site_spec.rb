@@ -45,4 +45,16 @@ describe 'a visitor' do
       expect(page).to have_content(student_2.name)
     end
   end
+  describe 'visiting the student index page' do
+    it 'can click on a students name and see their show page' do
+      student_1 = Student.create(name: 'Bobby')
+      student_2 = Student.create(name: 'Sally')
+
+      visit students_path
+      click_on "Sally"
+
+      expect(current_path).to eq(student_path(student_2))
+    end
+  end
+  end
 end
