@@ -7,7 +7,10 @@
 <body>
   <ul>
   <% @students.each do |student| %>
-    <li class="student_<%= student.id %>"><%= student.name %></li>
+    <li class="student_<%= student.name %>">
+      <%= student.name %>
+      <%= link_to 'Delete', student_path(student), method: 'delete' %>
+    </li>
   <% end %>
   </ul>
 </body>

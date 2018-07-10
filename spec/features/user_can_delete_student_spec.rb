@@ -7,7 +7,7 @@ describe 'a visitor' do
       student_2 = Student.create(name: 'Sally')
 
       visit students_path
-      within '.student_2' do
+      within '.student_Sally' do
         click_on 'Delete'
       end
 
