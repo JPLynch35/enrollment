@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T14:11:18-06:00">2018-07-10T14:11:18-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T14:15:09-06:00">2018-07-10T14:15:09-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">98.66%</span></span>
+    (<span class="covered_percent"><span class="green">98.1%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.05
+         1.04
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>25</b> files in total.
-    <b>149</b> relevant lines. 
-    <span class="green"><b>147</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed </span>
+    <b>26</b> files in total.
+    <b>158</b> relevant lines. 
+    <span class="green"><b>155</b> lines covered</span> and
+    <span class="red"><b>3</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -261,6 +261,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#f4c6cece5ab368c42b5ce0863d22e7cc989b1c43" class="src_link" title="spec/features/user_can_nav_through_site_spec.rb">spec/features/user_can_nav_through_site_spec.rb</a></td>
+        <td class="yellow strong">88.89 %</td>
+        <td>16</td>
+        <td>9</td>
+        <td>8</td>
+        <td>1</td>
+        <td>0.9</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#c82344d61d7dd4360eb9166c50f31c589bf28c94" class="src_link" title="spec/features/user_can_see_a_list_of_all_students_spec.rb">spec/features/user_can_see_a_list_of_all_students_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>15</td>
@@ -379,8 +389,8 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="3">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="3">
+          <span class="hits">4</span>
           
           <code class="ruby">    @students = Student.all</code>
         </li>
@@ -2427,6 +2437,121 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="f4c6cece5ab368c42b5ce0863d22e7cc989b1c43">
+  <div class="header">
+    <h3>spec/features/user_can_nav_through_site_spec.rb</h3>
+    <h4><span class="yellow">88.89 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;a visitor&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;visiting any student route&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;can use a nav bar to create a student from /students&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      student_1 = Student.create(name: &#39;Bobby&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      student_2 = Student.create(name: &#39;Sally&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      visit students_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      click_on &#39;Create a Student&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">      expect(page).to have_content(&#39;Create a Student!&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">end</code>
