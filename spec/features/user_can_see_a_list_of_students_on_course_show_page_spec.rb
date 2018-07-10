@@ -17,8 +17,8 @@ describe 'a visitor' do
       student_3 = Student.create(name: 'Tony')
       student_4 = Student.create(name: 'George')
       course_1 = student_1.courses.create(title: 'Math')
-      StudentCourses.create(student_id: student_2.id, course_id: course_1.id)
-      StudentCourses.create(student_id: student_3.id, course_id: course_1.id)
+      StudentCourse.create(student_id: student_2.id, course_id: course_1.id)
+      StudentCourse.create(student_id: student_3.id, course_id: course_1.id)
 
       visit course_path(course_1)
 
